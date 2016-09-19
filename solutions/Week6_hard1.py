@@ -7,7 +7,7 @@ and http://www.tutorialspoint.com/python/bitwise_operators_example.htm.
 
 
 def larger_than_16(b):
-	return bool(int(b, 2) & 240)
+	return bool(int(b, 2) >> 4)
 
 
 if __name__ == "__main__":
